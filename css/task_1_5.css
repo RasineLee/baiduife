@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body
+{
+	background-color: #DBDBDB;
+}
+
+div.header
+{
+	width: 100%;
+	height: 75px;
+	position: relative;
+	top:0;
+	left: 0;
+	overflow: hidden;
+	background-color: #696969;
+
+}
+
+div.main
+{
+	width: 100%;
+	overflow: auto;
+}
+
+div.left
+{
+	width: calc(100% - 525px);
+	margin: 25px;
+}
+
+div.right
+{
+	width: 350px;
+	position: absolute;
+	top: 100px;
+	right: 25px;
+	padding: 25px;
+	background-color: #ffffff;
+}
+
+div.footer
+{
+	width: 100%;
+	height: 75px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background-color: #696969;
+}
+
+div.header img
+{
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+div.header ul
+{
+	width: 400px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+div.header ul li
+{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+div.header ul li a
+{
+	color: #ffffff;
+	font-size: 14px;
+}
+
+div.shadow
+{
+	-webkit-box-shadow:0 0 10px #000;  
+  	-moz-box-shadow:0 0 10px #000;  
+  	box-shadow:0 0 10px #000;  
+  	-webkit-transition:all 0.3s linear;
+}
+
+div.main h1,h2,h3
+{
+	height: 56px;
+}
+
+div.main h2,h3
+{
+	color: #696969;
+}
+
+div.article,.gallary,.chart
+{
+	width: 100%;
+	padding: 25px;
+	background-color: #ffffff;
+}
+
+div.article
+{
+	margin-bottom: 25px;
+	overflow: auto;
+}
+
+div.article p
+{
+	line-height: 28px;
+}
+
+div.article ul
+{
+	list-style-type: none;
+}
+
+div.gallary
+{
+	overflow: auto;
+	margin-bottom: 25px;
+}
+
+div.gallary-pic
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 25px 0 25px 35px;
+	border: 1px solid #cecece;
+	padding-top: 10px;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+}
+
+div.gallary-pic img
+{
+	width: 180px;
+	height: 140px;
+}
+
+div.chart ol
+{
+	margin-left: 30px;
+}
+
+div.chart p
+{
+	margin-top: 16px;
+}
+
+div.chart table{
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px #DBDBDB;
+	line-height: 24px;
+	text-align: left;
+}
+
+div.chart table thead
+{
+	background-color: black;
+	color: white;
+}
+
+div.chart table tfoot
+{
+	background-color: #DBDBDB;
+}
+
+
+div.chart table tr td {
+	padding: 5px;
+}
+
+div.chart table tr td a {
+	margin: 0px;
+}
+
+div.forms
+{
+	margin-top: 32px;
+	line-height: 32px;
+}
+
+span.tips
+{
+	font-size: 14px;
+	color: #696969;
+}
+
+input.submit {
+	width: 100%;
+	height: 40px;
+	background-color: #3553cf;
+	color: #fff;
+	border-radius: 12px;
+	font-weight: 900px;
+}
+
+input.submit:hover {
+	background-color: #0028cd;
+}
+
+div.copyright
+{
+	text-align: center;
+	font-weight: 8px;
+	color: #ffffff;
+}
+
+

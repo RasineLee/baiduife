@@ -1,0 +1,57 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑"
+}
+
+div
+{
+	padding: 20px;
+	border: solid 1px #999999;
+}
+
+img
+{
+	height: 80px;
+	width: 80px;
+	border: solid 1px #999999;
+}
+
+#main
+{
+	height: 560px;
+	margin: 20px;
+	background-color: #eee;
+}
+
+#left
+{
+	width: 160px;
+	position: absolute;
+	top: 41px;
+	left: 41px;
+	background-color: #fff;
+}
+
+#right
+{
+	width: 80px;
+	position: absolute;
+	top: 41px;
+	right: 41px;
+	background-color: #fff;
+}
+
+#middle
+{
+	max-height: 520px;
+	margin-right: 142px;
+	margin-left: 222px;
+	background-color: #fff;
+}
+
+.move
+{
+	margin-top: 20px;
+}
