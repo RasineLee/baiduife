@@ -46,12 +46,11 @@ function getData() {
   ]
   */
   var ul = document.getElementById("source"),
-      li = document.getElementsByTagName("li"),
-      num = document.getElementsByTagName("b"),
+      li = ul.children,
       data = new Array();
   for (var i = 0; i < li.length; i++) {
-    var city = li[i].innerHTML.slice(0,2);
-    var index = num[i].innerHTML;
+    var city = li[i].innerText.slice(0,2);
+    var index = li[i].innerText.slice(-2);
     data[i]=[city,index];
   }
   return data;
